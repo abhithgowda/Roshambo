@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #B4D4FF;
+}
+
+h1 {
+    background: #176B87;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: black;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    gap: 10rem;
+}
+
+.msg-board {
+    margin-top: 3rem;
+}
+
+#msg {
+    background: #176B87;
+    color: white;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#reset {
+    background: #176B87;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background: white;
+    color: #176B87;
+    transition: 0.25s;
+}
+
+#reset:active {
+    transform: scale(0.9);
+}
